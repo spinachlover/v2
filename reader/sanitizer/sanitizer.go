@@ -331,7 +331,8 @@ func isValidIframeSource(baseURL, src string) bool {
 		}
 	}
 
-	return false
+	return true
+	// bilibili视频播放
 }
 
 func getTagAllowList() map[string][]string {
